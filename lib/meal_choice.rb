@@ -1,5 +1,5 @@
 # Your code here
-def meal_choice(x,y,z)
+def meal_choice(*x,y,z)
 protein = x
 protein ||= "meat"
 veg1 = y

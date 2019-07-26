@@ -8,5 +8,5 @@ def meal_choice(*food)
       str += "#{f}"
     end
   end
-    return str
+    puts str
 end

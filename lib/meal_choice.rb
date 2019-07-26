@@ -1,6 +1,11 @@
 # Your code here
 def meal_choice(*food)
-    str = 
-    food.each do |f|
-    puts "A plate of meat with broccoli and macaroni."
+    str = "A plate of "
+    food.each_with_index do |f,i|
+    if str.length - 1 = i
+      str += "and #{f}."
+    else
+      str += "#{f}"
+    end
+    return str
 end

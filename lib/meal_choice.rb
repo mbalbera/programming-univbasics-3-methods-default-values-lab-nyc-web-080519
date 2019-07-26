@@ -1,4 +1,6 @@
 # Your code here
+
+puts 
 def meal_choice(*food)
   str = "A plate of "
   food.each_with_index do |f,i|
